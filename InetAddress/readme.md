@@ -1,14 +1,14 @@
-»ñÈ¡·½·¨  
-getHostName():Ö÷»úÃûºÍipµØÖ·  
-getCanonicalHostName()£ºÍ¬ÉÏ£¬²»¹ý¶¼»áÁªÏµDNS,ÖªµÀÖ÷»úÃû  
-byte[] getAddress() £º·µ»ØipµØÖ·µÄbyteÊý×é£¬¿ÉÒÔÍ¨¹ýlengthÊôÐÔÖªµÀÊÇIPV4»¹ÊÇIPv6 
-getHostAddress()£º·µ»ØipµØÖ·  
+èŽ·å–æ–¹æ³•  
+getHostName():ä¸»æœºåå’Œipåœ°å€  
+getCanonicalHostName()ï¼šåŒä¸Šï¼Œä¸è¿‡éƒ½ä¼šè”ç³»DNS,çŸ¥é“ä¸»æœºå  
+byte[] getAddress() ï¼šè¿”å›žipåœ°å€çš„byteæ•°ç»„ï¼Œå¯ä»¥é€šè¿‡lengthå±žæ€§çŸ¥é“æ˜¯IPV4è¿˜æ˜¯IPv6   
+getHostAddress()ï¼šè¿”å›žipåœ°å€  
 
-##²âÊÔ¿É´ïÐÔ  
+##æµ‹è¯•å¯è¾¾æ€§  
 isReachable(int timeout)  
 
 
-Á½¸öÐ¡³ÌÐò  
-1. ¼ì²éµØÖ·ÊÇ·ñÊÇÒ»¸öÒÑÖªµÄÀ¬»øÓÊ¼þ·¢ËÍÕß(SpamCheck)  
-2. (1)Í¨¹ýÀëÏß´¦ÀíÈÕÖ¾ÎÄ¼þÀ´ÌáÉýWeb·þÎñÆ÷µÄÐÔÄÜ(Ö±°×µã¾ÍÊÇ°ÑipµØÖ·×ª»»³ÉÖ÷»úÃû)(Weblog)  
-    (2)ÀûÓÃÏß³Ì³ØµÄ·½Ê½ÊµÏÖ(LookupTast,PooledWeblog)
+ä¸¤ä¸ªå°ç¨‹åº  
+1. æ£€æŸ¥åœ°å€æ˜¯å¦æ˜¯ä¸€ä¸ªå·²çŸ¥çš„åžƒåœ¾é‚®ä»¶å‘é€è€…(SpamCheck)  
+2. (1)é€šè¿‡ç¦»çº¿å¤„ç†æ—¥å¿—æ–‡ä»¶æ¥æå‡WebæœåŠ¡å™¨çš„æ€§èƒ½(ç›´ç™½ç‚¹å°±æ˜¯æŠŠipåœ°å€è½¬æ¢æˆä¸»æœºå)(Weblog)  
+    (2)åˆ©ç”¨çº¿ç¨‹æ± çš„æ–¹å¼å®žçŽ°(LookupTast,PooledWeblog)
