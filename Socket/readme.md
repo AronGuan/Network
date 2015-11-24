@@ -1,19 +1,24 @@
 #Socket  
-Ğ¡³ÌĞò  
-1. ÓÃSocket´Ó·şÎñÆ÷¶ÁÈ¡  
+å°ç¨‹åº  
+1. ç”¨Socketä»æœåŠ¡å™¨è¯»å–  
 
-2. ÓÃSocketĞ´Èë·şÎñÆ÷  
+2. ç”¨Socketå†™å…¥æœåŠ¡å™¨  
 
-°ë¹Ø±ÕSocket  
+åŠå…³é—­Socket  
 shutdownInput()  
 shutdownOutput()  
 
-´úÀí·şÎñÆ÷  
+ä»£ç†æœåŠ¡å™¨  
 ```
-Ê¹ÓÃÎ»ÓÚmyproxy.example.comµÄSocks´úÀí·şÎñÆ÷À´Á¬½ÓÖ÷»úlogin.ibiblio.org
+ä½¿ç”¨ä½äºmyproxy.example.comçš„Socksä»£ç†æœåŠ¡å™¨æ¥è¿æ¥ä¸»æœºlogin.ibiblio.org
 		SocketAddress proxyAddress = new InetSocketAddress("myproxy.example.com",1080);
 		Proxy proxy = new Proxy(Proxy.Type.SOCKS,proxyAddress);
 		Socket s = new Socket(proxy);
 		SocketAddress remote = new InetSocketAddress("login.ibiblio.org",25);
 		s.connect(remote);
 ```
+è·å–Socketä¿¡æ¯  
+getInetAddress():è¿œç¨‹åœ°å€  
+getPort():è¿œç¨‹ç«¯å£  
+getLocalAddress():æœ¬åœ°åœ°å€  
+getLocalPort():æœ¬åœ°ç«¯å£
