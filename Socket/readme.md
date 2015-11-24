@@ -1,8 +1,6 @@
 #Socket  
 小程序  
 1. 用Socket从服务器读取  
-
-
 2. 用Socket写入服务器  
 
 半关闭Socket  
